@@ -1,4 +1,4 @@
-import '../styles/tech.css'
+import '../../styles/tech.css'
 
 export default function Tech({ stack }) {
     return (
