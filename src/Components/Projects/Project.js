@@ -5,11 +5,16 @@ import "../../styles/Project.css"
 
 
 export default function Project() {
+
     return (
-        <>
-            <Description project={"PacmanDQN"} des={"Iposlem"}/>
-            <Tech stack={"React"}/>
-            <img src={pacman} width="200" height="200" alt="pacman" className="right"/>
-        </>
+        <div className="container">
+            <div>
+                <Description project={"PacmanDQN"} des={"Iposlem"}/>
+                <Tech stack={"React"}/>
+            </div>
+            <div className="image-padding" >
+               <img src={pacman} width="400" height="400" alt="pacman" className="right"/> 
+            </div>
+        </div>
     );
 }

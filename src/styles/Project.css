@@ -1,8 +1,43 @@
 .project {
     /* font-size: 50px; */
-    background: rgba(128, 127, 128, .2);
+    background: rgb(245, 245, 247);
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: rgb(210, 210, 213);
+}
+
+.anim {
+    transform: scale(1);
+    transition: transform 0.5s ease;
+}
+
+/* Animation state */
+.anim.scroll-animate {
+    transform: scale(1.2); /* Increase size by 20% */
+}
+
+.project-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .right {
-    float: right;
+    display: flex;
+}
+
+.image-padding {
+    padding-top: 18px;
+}
+
+.text-padding {
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
