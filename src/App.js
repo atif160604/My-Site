@@ -7,6 +7,7 @@ import pacman from './Pacman.jpeg'
 function App() {
   
   return (
+    //TODO: make the compoenents work with the DATA by using prop drilling, which will dynamically render componenets
     <>
     <h1>Hello world</h1>
     <div className='project-center'>
