@@ -2,6 +2,10 @@ import '../../styles/tech.css'
 
 export default function Tech({ stack }) {
     return (
-        <p className="box">{stack}</p>
+        <div>
+            {stack.map((tech) => (
+                <p className="box">{tech}</p>
+            ))}
+        </div>
     );
 }
