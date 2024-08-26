@@ -1,6 +1,5 @@
 import Description from "./Description";
 import Tech from "./Tech";
-import pacman from '../../Pacman.jpeg'
 import "../../styles/Project.css"
 
 
