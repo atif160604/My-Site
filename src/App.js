@@ -4,6 +4,8 @@ import Project from './Components/Projects/Project';
 import './styles/Project.css'
 import pacman from './Pacman.jpeg'
 import AboutMe from './Components/AboutMe/about';
+import Intro from './Components/Intro/intro';
+import Skill from './Components/Skill/Skill'
 
 function App() {
   
@@ -11,8 +13,15 @@ function App() {
     //TODO: make the compoenents work with the DATA by using prop drilling, which will dynamically render componenets
     <>
     <h1>Hello world</h1>
-    <AboutMe/>
-    {DATA.map((project) =>  (
+    <Skill />
+    <section>
+      <Intro />
+    </section>
+    <section>
+      <AboutMe/>
+    </section>
+    <section>
+      {DATA.map((project) =>  (
       <div className='project-center'>
         <div className="project" style={{
         width:"75%"
@@ -23,9 +32,10 @@ function App() {
             image={project.image}
             tech={project.tech}
              />
+        </div>
       </div>
-    </div>
-    ))}
+      ))}
+    </section>
     </>
   );
 }

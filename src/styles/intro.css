@@ -1,0 +1,33 @@
+.bg {
+    height: 700px;
+    width: 75%;
+    background: rgb(245, 245, 247);
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: rgb(210, 210, 213);
+}
+
+.bg h1{
+    font-family: "Inter", sans-serif;
+    font-size: 50px;
+}
+
+.bg h2{
+    font-family: "Inter", sans-serif;
+    font-size: 35px;
+    color: gray;
+}
+
+.intro-pos {
+    display: flex;
+    justify-content: center;
+}
+
+.pad {
+    padding-top: 400px;
+}
+
+.pad-left {
+    padding-left: 25px;
+}

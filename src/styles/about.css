@@ -21,7 +21,7 @@
     justify-content: center;
 }
 
-p {
+.position p {
     font-size: 25px;
     font-family: "Inter", sans-serif;
 }
