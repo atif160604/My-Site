@@ -1,4 +1,7 @@
 .skill-box {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
     background-color: black;
     height: 100px;
     width: 100px;
@@ -6,4 +9,20 @@
     border-style: solid;
     border-width: 3px;
     border-color: gray;
+    margin-right: 10px;
+}
+
+.skill-pos {
+    display: flex;
+}
+
+.skill-center {
+    display: flex;
+    justify-content: center;
+}
+
+.text-pos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
