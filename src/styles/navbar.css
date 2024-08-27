@@ -1,0 +1,55 @@
+a {
+    font-family: "Inter", sans-serif;
+    padding-right: 5px;
+    color: gray;
+    text-decoration: none;
+}
+
+.centerNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inner-div img {
+    padding-left: 20px;
+}
+
+.inner-div a {
+    padding-right: 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center; /* Vertically aligns the nav items */
+  }
+  
+  nav img {
+    margin-right: 8px; /* Adds space between the image and the following text */
+  }
+  
+  nav a {
+    margin-right: 16px; /* Adds space between links and the following image */
+    text-decoration: none;
+    color: inherit; /* Ensures the link color matches the rest of your design */
+  }
+
+.bg-nav {
+    width: 75%;
+    height: 60px;
+    background: rgb(245, 245, 247);
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: rgb(210, 210, 213);
+}
+
+.logo {
+    padding-left: 20px;
+}
