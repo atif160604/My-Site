@@ -9,11 +9,18 @@ import Skill from './Components/Skill/Skill'
 import postgres from "./Postgres.svg"
 import NavBar from './Components/NavBar/NavBar';
 import Contact from './Components/Contact/Contact';
+import html from './Svg/html.svg'
+import java from './Svg/java.svg'
+import javascript from './Svg/javascript.svg'
+import node from './Svg/node.svg'
+import python from './Svg/python.svg'
+import react from './Svg/react.svg'
+import swift from './Svg/swift.svg'
+import css from './Svg/css.svg'
 
 function App() {
   
   return (
-    //TODO: make the compoenents work with the DATA by using prop drilling, which will dynamically render componenets
     <>
     <section className='section2 nav-space'>
       <NavBar />
@@ -59,7 +66,14 @@ const DATA = [
   {projectName: "PacmanDQN", description: "We created a Pacman AI", image: pacman ,tech: ["Python", "Pytorch", "RL", "DQN", "OpenAIGymnasium"]}
 ]
 const SKILL = [
-  {skillName: "postgres", src: postgres},
-  {skillName: "postgres", src: postgres}
+  {skillName: "React", src: react},
+  {skillName: "Python", src: python},
+  {skillName: "Javascript", src: javascript},
+  {skillName: "Swift", src: swift},
+  {skillName: "Java", src: java},
+  {skillName: "Node", src: node},
+  {skillName: "HTML", src: html},
+  {skillName: "CSS", src: css},
+  {skillName: "Postgres", src: postgres},
 ]
 export default App;

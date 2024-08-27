@@ -1,5 +1,7 @@
 import '../../styles/contact.css'
-import test from '../../Postgres.svg'
+import resume from '../../Svg/resume.svg'
+import linkedin from '../../Svg/linkedin.svg'
+import github from '../../Svg/github.svg'
 
 export default function Contact() {
     return (
@@ -22,9 +24,9 @@ export default function Contact() {
                     </div>
                     <div className='more-info'>
                         <p className='explore-padding font-medium'>Explore more</p>
-                        <img src={test} height="22px" width="22px" alt='test' className='info-padding'/>
-                        <img src={test} height="22px" width="22px" alt='test' className='info-padding'/>
-                        <img src={test} height="22px" width="22px" alt='test' className='info-padding'/>
+                        <img src={resume} height="22px" width="22px" alt='test' className='info-padding'/>
+                        <img src={github} height="22px" width="22px" alt='test' className='info-padding'/>
+                        <img src={linkedin} height="22px" width="22px" alt='test' className='info-padding'/>
                     </div>
                     
                 </div>
