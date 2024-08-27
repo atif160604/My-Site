@@ -8,6 +8,7 @@ import Intro from './Components/Intro/intro';
 import Skill from './Components/Skill/Skill'
 import postgres from "./Postgres.svg"
 import NavBar from './Components/NavBar/NavBar';
+import Contact from './Components/Contact/Contact';
 
 function App() {
   
@@ -39,6 +40,7 @@ function App() {
       </div>
       ))}
     </section>
+    <Contact />
     </>
   );
 }
