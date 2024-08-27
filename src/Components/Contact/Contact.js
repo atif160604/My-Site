@@ -7,8 +7,8 @@ export default function Contact() {
             <div className='contact-bg contact-align-message'>
                 <div className='contact-message-row'>
                     <div className='contact-connect'>
-                        <h2>Want to connect?</h2>
-                        <h1>Let's get started!</h1>
+                        <h2 className='h2-contact'>Want to connect?</h2>
+                        <h1 className='h1-contact'>Let's get started!</h1>
                     </div>
                     <div className='send-contact'>
                         <p className='send-message-box'>Send message</p>
@@ -17,11 +17,11 @@ export default function Contact() {
                 <hr className='contact-line'></hr>
                 <div className='contact-more'>
                     <div className='contact-email'>
-                       <p>Connect</p>
+                       <p className='font-medium'>Connect</p>
                         <p className='email-padding'>atif.agboat@hotmail.com</p> 
                     </div>
                     <div className='more-info'>
-                        <p className='explore-padding'>Explore more</p>
+                        <p className='explore-padding font-medium'>Explore more</p>
                         <img src={test} height="22px" width="22px" alt='test' className='info-padding'/>
                         <img src={test} height="22px" width="22px" alt='test' className='info-padding'/>
                         <img src={test} height="22px" width="22px" alt='test' className='info-padding'/>

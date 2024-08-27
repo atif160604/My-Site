@@ -15,16 +15,18 @@ function App() {
   return (
     //TODO: make the compoenents work with the DATA by using prop drilling, which will dynamically render componenets
     <>
-    <h1>Hello world</h1>
-    <NavBar />
-    <Skill skills={SKILL} />
+    <section className='section2 nav-space'>
+      <NavBar />
+    </section>
     <section>
       <Intro />
     </section>
     <section>
+      <h1 className='title'>About me</h1>
       <AboutMe/>
     </section>
     <section>
+      <h1 className='title'>Projects</h1>
       {DATA.map((project) =>  (
       <div className='project-center'>
         <div className="project" style={{
@@ -40,7 +42,14 @@ function App() {
       </div>
       ))}
     </section>
-    <Contact />
+    <section className='section3'>
+      <h1 className='title'>Skills</h1>
+      <Skill skills={SKILL} />
+    </section>
+    <section className='section2'>
+      <Contact />
+    </section>
+
     </>
   );
 }
