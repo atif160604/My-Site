@@ -10,14 +10,23 @@ export default function NavBar() {
             <div className='inner-div bg-nav'>
                 <img src={user} height="30px" width="30px" alt='test' className='logo'/>
                 <nav>
-                    <img src={user} height="22px" width="22px" alt='test'/>
-                    <a href="/html/">About</a>
-                    <img src={folder} height="22px" width="22px" alt='test'/>
-                    <a href="/css/">Projects</a>
-                    <img src={stack} height="22px" width="22px" alt='test'/>
-                    <a href="/js/">Skills</a>
-                    <img src={mail} height="22px" width="22px" alt='test'/>
-                    <a href="/python/">Connect</a>
+                    <div className='nav-align'>
+                        <img src={user} height="22px" width="22px" alt='test'/>
+                        <a href="/html/">About</a>
+                    </div>
+                    <div className='nav-align'>
+                        <img src={folder} height="22px" width="22px" alt='test'/>
+                        <a href="/css/">Projects</a>
+                    </div>
+                    
+                    <div className='nav-align'>
+                        <img src={stack} height="22px" width="22px" alt='test'/>
+                        <a href="/js/">Skills</a>
+                    </div>
+                    <div className='nav-align'>
+                        <img src={mail} height="22px" width="22px" alt='test'/>
+                        <a href="/python/">Connect</a>
+                    </div>
                 </nav>
             </div>
         </div>

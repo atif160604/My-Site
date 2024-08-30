@@ -5,6 +5,26 @@ a {
     text-decoration: none;
 }
 
+.nav-align {
+    display: flex;
+    align-items: center;
+}
+
+.nav-align a {
+    position: relative;
+    z-index: 1;
+}
+
+.nav-align img {
+    transition: transform 0.3s ease;
+    margin-right: 8px;
+    z-index: 0;
+}
+
+.nav-align:hover img {
+    transform: translateY(-5px);
+}
+
 .centerNav {
     display: flex;
     justify-content: center;
