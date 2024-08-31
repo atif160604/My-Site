@@ -17,6 +17,8 @@ import python from './Svg/python.svg'
 import react from './Svg/react.svg'
 import swift from './Svg/swift.svg'
 import css from './Svg/css.svg'
+import firebase from './Svg/firebase.svg'
+import unity from './Svg/unity.svg'
 
 function App() {
   
@@ -28,17 +30,15 @@ function App() {
     <section>
       <Intro />
     </section>
-    <section>
+    <section id='about'>
       <h1 className='title'>About me</h1>
       <AboutMe/>
     </section>
-    <section>
+    <section id='projects'>
       <h1 className='title'>Projects</h1>
       {DATA.map((project) =>  (
       <div className='project-center'>
-        <div className="project" style={{
-        width:"75%"
-        }}>
+        <div className="project">
           <Project 
             projectName={project.projectName}
             description={project.description}
@@ -49,11 +49,11 @@ function App() {
       </div>
       ))}
     </section>
-    <section className='section3'>
+    <section id='skills' className='section3'>
       <h1 className='title'>Skills</h1>
       <Skill skills={SKILL} />
     </section>
-    <section className='section2'>
+    <section id='connect' className='section2'>
       <Contact />
     </section>
 

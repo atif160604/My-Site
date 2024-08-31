@@ -73,3 +73,9 @@ nav {
 .logo {
     padding-left: 20px;
 }
+
+@media only screen and (max-width: 780px) {
+    .bg-nav {
+        width: 100%;
+    }
+}

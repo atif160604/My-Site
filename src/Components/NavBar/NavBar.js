@@ -12,20 +12,20 @@ export default function NavBar() {
                 <nav>
                     <div className='nav-align'>
                         <img src={user} height="22px" width="22px" alt='test'/>
-                        <a href="/html/">About</a>
+                        <a href="#about">About</a>
                     </div>
                     <div className='nav-align'>
                         <img src={folder} height="22px" width="22px" alt='test'/>
-                        <a href="/css/">Projects</a>
+                        <a href="#projects">Projects</a>
                     </div>
                     
                     <div className='nav-align'>
                         <img src={stack} height="22px" width="22px" alt='test'/>
-                        <a href="/js/">Skills</a>
+                        <a href="#skills">Skills</a>
                     </div>
                     <div className='nav-align'>
                         <img src={mail} height="22px" width="22px" alt='test'/>
-                        <a href="/python/">Connect</a>
+                        <a href="#connect">Connect</a>
                     </div>
                 </nav>
             </div>

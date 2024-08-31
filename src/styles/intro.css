@@ -1,5 +1,4 @@
 .bg {
-    height: 700px;
     width: 75%;
     background: rgb(245, 245, 247);
     border-radius: 20px;
@@ -30,4 +29,19 @@
 
 .pad-left {
     padding-left: 25px;
+}
+
+@media only screen and (max-width: 780px) {
+    .bg h1{
+        font-size: 25px;
+    }
+
+    .bg h2{
+        font-size: 18px;
+    }
+
+    .bg {
+        width: 95%;
+    }
+
 }

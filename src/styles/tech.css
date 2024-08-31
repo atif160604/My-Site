@@ -6,3 +6,9 @@
     margin-left: 15px;
     padding: 5px;
 }
+
+@media only screen and (max-width: 780px) {
+    .box {
+        margin-left: 5px;
+    }
+}
