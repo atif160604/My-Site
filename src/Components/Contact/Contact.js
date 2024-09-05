@@ -13,7 +13,10 @@ export default function Contact() {
                         <h1 className='h1-contact'>Let's get started!</h1>
                     </div>
                     <div className='send-contact'>
-                        <p className='send-message-box'>Send message</p>
+                        <a href="mailto:atif.agboat@hotmail.com">
+                           <p className='send-message-box'>Send message</p> 
+                        </a>
+                        
                     </div>
                 </div>
                 <hr className='contact-line'></hr>
@@ -24,9 +27,15 @@ export default function Contact() {
                     </div>
                     <div className='more-info'>
                         <p className='explore-padding font-medium'>Explore more</p>
-                        <img src={resume} height="22px" width="22px" alt='test' className='info-padding'/>
-                        <img src={github} height="22px" width="22px" alt='test' className='info-padding'/>
-                        <img src={linkedin} height="22px" width="22px" alt='test' className='info-padding'/>
+                        <a href='https://github.com/atif160604'>
+                           <img src={resume} height="22px" width="22px" alt='test' className='info-padding'/> 
+                        </a>
+                        <a href='https://github.com/atif160604'>
+                            <img src={github} height="22px" width="22px" alt='test' className='info-padding'/>
+                        </a>
+                        <a href='https://www.linkedin.com/in/atif-agboatwala/'>
+                            <img src={linkedin} height="22px" width="22px" alt='test' className='info-padding'/>
+                        </a>
                     </div>
                     
                 </div>

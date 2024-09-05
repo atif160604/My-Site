@@ -7,9 +7,9 @@ export default function AboutMe() {
             <div className='position'>
                 <img src={atif} className='image' alt="This is atif" />
                 <div className='para-position'>
-                    <p>I was born in Edinburg, Texas and graduated with a Bachelors in Computer Science, with a minor in Cyber Security, from the University of Texas at San Antonio this past year.</p>
-                    <p>Since graduating I have had freelance experience building functional web applications with cutting edge technologies.</p>
-                    <p>n my "free time" I continue to build applications that solve problems I encounter frequently, always trying to implement new technologies.</p>
+                    <p>I am an undergraduate at Northeastern University studying computer science with a minor in robotics. My areas of interest include full-stack development and machine learning </p>
+                    <p>Through internships and personal projects I have had experince in building functional web and iOS applications with the latest technologies.</p>
+                    <p>In my "free time" I like learning new skills and solving problems I frequently encounter, in pursuit of improving my skills. </p>
                 </div>
             </div>
         </section>

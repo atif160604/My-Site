@@ -37,10 +37,6 @@ a {
     align-items: center;
 }
 
-.inner-div img {
-    padding-left: 20px;
-}
-
 .inner-div a {
     padding-right: 20px;
 }
@@ -70,12 +66,25 @@ nav {
     border-color: rgb(210, 210, 213);
 }
 
-.logo {
-    padding-left: 20px;
+.inner-div img {
+    height: 40px;
+    width: 40px;
+    margin-left: 20px;
+    border-radius: 50%;
 }
 
 @media only screen and (max-width: 780px) {
     .bg-nav {
         width: 100%;
+    }
+
+    .inner-div img {
+        height: 20px;
+    }
+
+    .nav-align {
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
     }
 }

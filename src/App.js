@@ -18,7 +18,9 @@ import react from './Svg/react.svg'
 import swift from './Svg/swift.svg'
 import css from './Svg/css.svg'
 import firebase from './Svg/firebase.svg'
-import unity from './Svg/unity.svg'
+import currency from './Images/Currency.png'
+import game from './Images/Game.png'
+import reversi from './Images/Reversi.png'
 
 function App() {
   
@@ -35,7 +37,7 @@ function App() {
       <AboutMe/>
     </section>
     <section id='projects'>
-      <h1 className='title'>Projects</h1>
+      <h1 className='title'> Selected Projects</h1>
       {DATA.map((project) =>  (
       <div className='project-center'>
         <div className="project">
@@ -62,8 +64,10 @@ function App() {
 }
 
 const DATA = [
-  {projectName: "PacmanDQN", description: "We created a Pacman AI", image: pacman ,tech: ["Python", "Pytorch", "RL", "DQN", "OpenAIGymnasium"]},
-  {projectName: "PacmanDQN", description: "We created a Pacman AI", image: pacman ,tech: ["Python", "Pytorch", "RL", "DQN", "OpenAIGymnasium"]}
+  {projectName: "PacmanDQN", description: "Developed and trained a Deep Q-Network (DQN) using Pytorch to play OpenAI Gymnasium’s Atari Pacman environment, achieving an average reward increase of approximately 40 over 4100 training episodes.", image: pacman ,tech: ["Python", "Pytorch", "Reinforcement Learning", "OpenAIGymnasium"]},
+  {projectName: "Reversi", description: "Engineered a take on the popular game Reversi (Othello) but with a hexagonal grid to make the game more challenging", image: reversi ,tech: ["Java", "JUnit", "JavaFX"]},
+  {projectName: "Automatic Currency", description: "Automated a versatile application to store, convert, format 1000’s of currencies in excel in a matter of seconds, using SQLite3 as the database to store and retrieve data", image: currency ,tech: ["Python", "TKinter", "SQLite3"]},
+  {projectName: "Escape from dungeon", description: "Created a first person shooter game comprising of several levels including various enemies with a markov model AI", image: game ,tech: ["C#", "Unity", "Blender"]},
 ]
 const SKILL = [
   {skillName: "React", src: react},
@@ -75,5 +79,6 @@ const SKILL = [
   {skillName: "HTML", src: html},
   {skillName: "CSS", src: css},
   {skillName: "Postgres", src: postgres},
+
 ]
 export default App;

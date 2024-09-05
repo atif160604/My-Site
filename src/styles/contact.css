@@ -107,7 +107,7 @@
 
 @media only screen and (max-width: 780px) {
     .contact-bg {
-        width: 100%;
+        width: 90%;
     }
 
     .contact-message-row {
@@ -119,5 +119,23 @@
     }
     .send-message-box {
         justify-content: center;
+    }
+
+    .send-contact {
+        display: inline;
+        width: 88%;
+    }
+
+    .contact-more {
+        display: inline;
+    }
+
+    .contact-email {
+        justify-content: center;
+    }
+
+    .more-info {
+        justify-content: space-evenly;
+        align-items: center;
     }
 }
