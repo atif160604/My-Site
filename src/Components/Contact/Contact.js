@@ -27,7 +27,7 @@ export default function Contact() {
                     </div>
                     <div className='more-info'>
                         <p className='explore-padding font-medium'>Explore more</p>
-                        <a href='https://github.com/atif160604'>
+                        <a href='https://drive.google.com/file/d/1yPDBUfZDTeVIgoZ5qJYccI4zOmFgQaBq/view?usp=sharing'>
                            <img src={resume} height="22px" width="22px" alt='test' className='info-padding'/> 
                         </a>
                         <a href='https://github.com/atif160604'>
